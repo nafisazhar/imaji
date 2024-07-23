@@ -44,6 +44,9 @@ public class frm_pilih extends javax.swing.JFrame {
 
         jPanel7.setBackground(new java.awt.Color(252, 252, 228));
 
+        jPanel8.setBackground(new java.awt.Color(148, 132, 116));
+        jPanel8.setToolTipText("");
+
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);

@@ -3,16 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/menu.java</file>
-            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/aktivitas.java</file>
-            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/jscoll.java</file>
-            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/inventory.java</file>
-            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/bayar.java</file>
-            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/openshift.java</file>
-            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/tambah.java</file>
-            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/LogIn.java</file>
-            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/awal1.java</file>
-            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/shift.java</file>
+            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/frm_log_in.java</file>
+            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/frm_aktivitas.java</file>
+            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/frm_menu.java</file>
+            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/frm_shift.java</file>
+            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/frm_awal.java</file>
+            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/frm_open_shift.java</file>
+            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/frm_pilih.java</file>
+            <file>file:/C:/Users/Hp/OneDrive/Documents/NetBeansProjects/IMAJI%20LEATHERLUX/src/imaji/leatherlux/frm_bayar.java</file>
         </group>
     </open-files>
 </project-private>

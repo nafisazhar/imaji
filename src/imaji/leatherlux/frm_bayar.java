@@ -45,6 +45,9 @@ public class frm_bayar extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(148, 132, 116));
 
+        jTextField1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        jTextField1.setToolTipText("");
+
         jButton1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jButton1.setText("Batal");
 
@@ -69,10 +72,12 @@ public class frm_bayar extends javax.swing.JFrame {
                 .addContainerGap(18, Short.MAX_VALUE))
         );
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/money.png"))); // NOI18N
         jLabel1.setText("Tunai");
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/pos-terminal.png"))); // NOI18N
         jLabel2.setText("EDC");
 
         jButton3.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N

@@ -96,6 +96,8 @@ public class frm_aktivitas extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        jTextField1.setFont(new java.awt.Font("Arial", 2, 14)); // NOI18N
+
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},
@@ -124,15 +126,21 @@ public class frm_aktivitas extends javax.swing.JFrame {
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/user.png"))); // NOI18N
         jLabel6.setText("Pelanggan");
 
+        jTextField2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/search (1).png"))); // NOI18N
 
+        jTextField3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3ActionPerformed(evt);
             }
         });
 
+        jTextField4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Arial", 2, 12)); // NOI18N
         jTextArea1.setRows(5);
         jScrollPane2.setViewportView(jTextArea1);
 
@@ -190,7 +198,7 @@ public class frm_aktivitas extends javax.swing.JFrame {
                         .addGap(44, 44, 44)
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 356, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(11, Short.MAX_VALUE))
+                .addContainerGap(21, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

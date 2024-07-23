@@ -48,10 +48,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-          </Group>
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -83,16 +80,15 @@
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
+              <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
                   <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" min="-2" pref="511" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jPanel10" max="32767" attributes="0"/>
+                      <Component id="jScrollPane1" pref="0" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
               </Group>
-              <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
       </Layout>
@@ -225,17 +221,14 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                       <Component id="jPanel18" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Component id="jPanel18" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="7" max="32767" attributes="0"/>
-                  </Group>
+                  <Component id="jPanel18" min="-2" max="-2" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -250,61 +243,50 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jPanel19" alignment="0" max="32767" attributes="0"/>
                       <Component id="jScrollPane2" alignment="1" pref="0" max="32767" attributes="0"/>
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel2" min="-2" pref="186" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel49" min="-2" max="-2" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jButton6" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                  <Component id="jButton7" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel48" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jTextField2" min="-2" pref="90" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jTextField1" min="-2" pref="90" max="-2" attributes="0"/>
-                              </Group>
+                              <Component id="jTextField3" alignment="0" min="-2" pref="139" max="-2" attributes="0"/>
                           </Group>
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel46" alignment="0" pref="393" max="32767" attributes="0"/>
+                              <Component id="jLabel47" alignment="0" max="32767" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel46" alignment="0" max="32767" attributes="0"/>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jLabel47" max="32767" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton6" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="jLabel49" min="-2" max="-2" attributes="0"/>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jLabel48" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="jTextField2" min="-2" pref="90" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Component id="jTextField3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel9" min="-2" pref="83" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jButton7" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextField1" min="-2" pref="103" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                               </Group>
                           </Group>
+                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="jPanel19" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
+                                  <Component id="jLabel2" min="-2" pref="101" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jLabel48" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -313,10 +295,9 @@
                                   <Component id="jLabel49" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" max="-2" attributes="0"/>
                                   <Component id="jTextField3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="jLabel2" min="-2" pref="101" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel46" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
                           <Component id="jLabel47" min="-2" max="-2" attributes="0"/>
@@ -326,13 +307,11 @@
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jButton7" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -389,61 +368,18 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Container class="javax.swing.JPanel" name="jPanel19">
-                  <Properties>
-                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="f0" green="f4" red="f5" type="rgb"/>
-                    </Property>
-                  </Properties>
-
-                  <Layout>
-                    <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="jLabel10" min="-2" pref="51" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton5" min="-2" pref="348" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                    <DimensionLayout dim="1">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="jButton5" min="-2" pref="46" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          </Group>
-                          <Component id="jLabel10" alignment="0" max="32767" attributes="0"/>
-                      </Group>
-                    </DimensionLayout>
-                  </Layout>
-                  <SubComponents>
-                    <Component class="javax.swing.JButton" name="jButton5">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                          <Font name="Arial" size="14" style="0"/>
-                        </Property>
-                        <Property name="text" type="java.lang.String" value="Tambah Pelanggan"/>
-                      </Properties>
-                      <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
-                      </Events>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel10">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="jLabel10"/>
-                      </Properties>
-                    </Component>
-                  </SubComponents>
-                </Container>
                 <Component class="javax.swing.JLabel" name="jLabel2">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/icon/HI.png"/>
+                      <Image iconType="3" name="/icon/logoStruk.png"/>
                     </Property>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel9">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="c" green="31" red="5f" type="rgb"/>
+                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="12" style="0"/>
                     </Property>
@@ -467,7 +403,7 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton7">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="jButton7"/>
+                    <Property name="text" type="java.lang.String" value="Bayar"/>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
@@ -475,6 +411,9 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel46">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="c" green="31" red="5f" type="rgb"/>
+                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="12" style="0"/>
                     </Property>
@@ -483,6 +422,9 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel47">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="c" green="31" red="5f" type="rgb"/>
+                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="12" style="0"/>
                     </Property>
@@ -491,6 +433,9 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel48">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="c" green="31" red="5f" type="rgb"/>
+                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="12" style="0"/>
                     </Property>
@@ -499,6 +444,9 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel49">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="c" green="31" red="5f" type="rgb"/>
+                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="12" style="0"/>
                     </Property>
@@ -665,7 +613,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton8">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/ST 01 Cream.jpg"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel4">
@@ -673,7 +623,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel1"/>
+                            <Property name="text" type="java.lang.String" value="ST 01"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -704,7 +654,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton9">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/T.AT22.png"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel5">
@@ -712,7 +664,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel3"/>
+                            <Property name="text" type="java.lang.String" value="AT 22"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -744,7 +696,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton10">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/T.TW01.png"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel6">
@@ -752,7 +706,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel4"/>
+                            <Property name="text" type="java.lang.String" value="TW 01"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -783,7 +737,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton11">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/S.SB 01.jpg"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel7">
@@ -791,7 +747,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel1"/>
+                            <Property name="text" type="java.lang.String" value="SB 01"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -822,7 +778,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton12">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/SpinilTan.png"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel8">
@@ -830,7 +788,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel3"/>
+                            <Property name="text" type="java.lang.String" value="Spinil"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -943,7 +901,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton14">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/S.SB 01.jpg"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel12">
@@ -951,7 +911,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel1"/>
+                            <Property name="text" type="java.lang.String" value="SB 01"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -982,7 +942,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton15">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/S.SB 07.jpg"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel13">
@@ -990,7 +952,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel3"/>
+                            <Property name="text" type="java.lang.String" value="SB 07"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1022,7 +984,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton16">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/S.SC 01 Mocca.jpg"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel14">
@@ -1030,7 +994,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel4"/>
+                            <Property name="text" type="java.lang.String" value="SC 01"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1143,7 +1107,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton20">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/ST 01 Cream.jpg"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel19">
@@ -1151,7 +1117,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel1"/>
+                            <Property name="text" type="java.lang.String" value="ST 01"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1182,7 +1148,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton21">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/ST 08 Mocca.jpg"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel20">
@@ -1190,7 +1158,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel3"/>
+                            <Property name="text" type="java.lang.String" value="ST 08"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1222,7 +1190,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton22">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/ST 09 Putih.jpg"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel21">
@@ -1230,7 +1200,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel4"/>
+                            <Property name="text" type="java.lang.String" value="ST 09"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1260,9 +1230,7 @@
                               <Component id="jPanel33" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="jPanel34" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jPanel35" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                              <EmptySpace min="20" pref="208" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1273,7 +1241,6 @@
                               <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="jPanel34" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jPanel35" alignment="0" max="32767" attributes="0"/>
                                   <Component id="jPanel33" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="0" pref="235" max="32767" attributes="0"/>
@@ -1343,7 +1310,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton26">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/SC 03 Navy.jpg"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel26">
@@ -1351,7 +1320,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel1"/>
+                            <Property name="text" type="java.lang.String" value="SC 03"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1382,7 +1351,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton27">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/SC 04 Kuning.jpg"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel27">
@@ -1390,47 +1361,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel3"/>
-                          </Properties>
-                        </Component>
-                      </SubComponents>
-                    </Container>
-                    <Container class="javax.swing.JPanel" name="jPanel35">
-
-                      <Layout>
-                        <DimensionLayout dim="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jButton28" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                        </DimensionLayout>
-                        <DimensionLayout dim="1">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jButton28" min="-2" pref="150" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                        </DimensionLayout>
-                      </Layout>
-                      <SubComponents>
-                        <Component class="javax.swing.JButton" name="jButton28">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel28">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Arial" size="14" style="0"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel4"/>
+                            <Property name="text" type="java.lang.String" value="SC 04"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1543,15 +1474,20 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton32">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/SpinilTan.png"/>
+                            </Property>
                           </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton32ActionPerformed"/>
+                          </Events>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel33">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel1"/>
+                            <Property name="text" type="java.lang.String" value="Spinil"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1582,15 +1518,20 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton33">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/JW07.png"/>
+                            </Property>
                           </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton33ActionPerformed"/>
+                          </Events>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel34">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel3"/>
+                            <Property name="text" type="java.lang.String" value="JW 07"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1622,7 +1563,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton34">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/JP 13.png"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel35">
@@ -1630,7 +1573,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel4"/>
+                            <Property name="text" type="java.lang.String" value="JP 13"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1743,7 +1686,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton38">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/T.AT22.png"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel40">
@@ -1751,7 +1696,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel1"/>
+                            <Property name="text" type="java.lang.String" value="AT 22"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1782,7 +1727,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton39">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/T.AT33.png"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel41">
@@ -1790,7 +1737,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel3"/>
+                            <Property name="text" type="java.lang.String" value="AT 33"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1822,7 +1769,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="jButton40">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="jButton1"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/icon/T.TW01.png"/>
+                            </Property>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel42">
@@ -1830,7 +1779,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="jLabel4"/>
+                            <Property name="text" type="java.lang.String" value="TW 01"/>
                           </Properties>
                         </Component>
                       </SubComponents>
